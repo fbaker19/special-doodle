@@ -1,0 +1,10 @@
+body{
+    background-image: url(../Assets/chicagoSkyline.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      margin:0 auto;
+    /*fix image resizing or turn parallax?*/
+    font-family: helvetica;
+    color: aliceblue;
+    text-align: center;
+}

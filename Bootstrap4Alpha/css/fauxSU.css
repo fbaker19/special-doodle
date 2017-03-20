@@ -1,0 +1,55 @@
+    
+    /*rem - relative to the root
+    em - raltive to the parent container    
+    1rem = 16px*/
+html, 
+body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+#cover{
+    background: #222 url('../img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;  /*centers smack dab in middle of page*/ 
+}
+
+#cover-caption{
+   width: 100%;
+}
+
+.login{ 
+    justify-content: center;
+}
+
+
+
+.card{
+    margin: 2rem 0;
+}
+
+
+#about{
+    background: url("../img/aboutMePup.jpg") center center no-repeat;
+    background: cover;
+}
+
+.about-text{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding:1.275rem;
+}
+
+#footer-main{
+    background-color: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}

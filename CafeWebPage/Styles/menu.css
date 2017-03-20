@@ -1,0 +1,101 @@
+/*Center Table!!!!!!!!!!*/
+
+/*NAV BAR*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+    background-color:#533421;  
+}
+
+li{
+    float:left;  
+    text-align:center;
+}
+
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff; 
+    padding: 10px;
+    
+} 
+
+li:hover{
+    background-color: #ccc;
+}
+
+li a:hover{
+    color:#000;
+}
+
+.active{
+    background-color: cadetblue;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li {
+        float: none;
+    }  
+}
+
+body{
+    background-color: rgba(41,82,83,0.8); 
+}
+h1{
+    
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+    justify-content: left;
+    position: absolute;
+}
+
+/*MENU TABLES*/
+
+table{
+    border-collapse: collapse;/*removes vert lines/borders*/
+    width: 100%;
+    position: relative;
+    align-items: center;
+  
+}
+h3{
+    margin: 0 auto;
+    padding: 5px;
+}
+
+td{
+    padding:0 15px 0 15px;
+}
+
+.mheader{
+    background-color: #a0785f;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+}
+
+.subHead, .size{
+    background-color: #295253;
+    font-weight: 700;
+    padding: 5px;
+    margin: 0;
+}
+
+.fa{
+    margin: 20px 5px;
+    padding-bottom: 20px;
+    font-size-adjust: 35px;
+}
+
+
