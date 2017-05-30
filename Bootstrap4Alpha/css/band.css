@@ -1,5 +1,4 @@
 
-
 .jumbotron {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -7,15 +6,13 @@
   background-color: #fff;
   background-image: url('../img/crowd_concert.jpg');
   background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;    
+  background-position: center;
+  background-size: cover;     
 }
 
 
-
 .jumbotron-heading {
-  font-weight: 200;
-      
+  font-weight: 200;      
 }
 
 .jumbotron .container {
